@@ -156,6 +156,7 @@ export default {
            if(result.code==200){
             this.myOrder = result.data
            }
+           console.log(this.myOrder);
         },
         //获取当前点击页
         getPageNo(page){

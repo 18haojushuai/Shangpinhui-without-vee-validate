@@ -1,0 +1,37 @@
+[
+    {
+        "packageList": [
+            {
+                "deliverDate":"2022-8-23",
+                "deliveryBrand": "顺丰快递",
+                "deliverNum": "3464734384",
+                "deliverMan": "王顺丰"
+            },
+            {
+                "deliverDate":"2022-8-22",
+                "deliveryBrand": "中通快递",
+                "deliverNum": "3464723343",
+                "deliverMan": "刘中通"
+            },
+            {   
+                "deliverDate":"2022-8-24",
+                "deliveryBrand": "韵达快递",
+                "deliverNum": "1123990434",
+                "deliverMan": "郭韵达"
+            },
+            {
+                "deliverDate":"2022-8-3",
+                "deliveryBrand": "京东快递",
+                "deliverNum": "11244110434",
+                "deliverMan": "叶京东"
+            },
+            {
+                "deliverDate":"2022-8-31",
+                "deliveryBrand": "蜂鸟快递",
+                "deliverNum": "1122238104",
+                "deliverMan": "俞蜂鸟"
+            }
+        ],
+        "total":"5"
+    }
+]

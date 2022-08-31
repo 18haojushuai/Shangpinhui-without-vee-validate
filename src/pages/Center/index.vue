@@ -10,7 +10,7 @@
               <router-link to="/center/myorder">我的订单</router-link>
             </dd>
             <dd>
-              <router-link to="/center/grouporder">团购订单</router-link>
+              <router-link to="/center/mypackage">我的包裹</router-link>
             </dd>
             <dd>本地生活订单 </dd>
             <dd>我的预售</dd>
@@ -65,7 +65,7 @@
   export default {
     name: '',
     components:{
-}
+    }
   }
 </script>
 

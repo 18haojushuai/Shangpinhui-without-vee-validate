@@ -6,7 +6,7 @@ import TypeNav from './components/TypeNav/MyIndex.vue'
 //注册轮播图
 import Carousel from '@/components/Carousel'
 import Pagination from '@/components/Pagination'
-import {Button,MessageBox} from 'element-ui'
+import {Button,MessageBox,Table,TableColumn} from 'element-ui'
 //不引入css样式将以文本形式展现在左下角
 import 'element-ui/lib/theme-chalk/index.css';
 
@@ -32,6 +32,8 @@ Vue.use(VueLazyload,{
   //懒加载默认图片
   loading:cry
 })
+Vue.use(Table);
+Vue.use(TableColumn);
 Vue.config.productionTip = false
 
 //统一引入api所有请求函数

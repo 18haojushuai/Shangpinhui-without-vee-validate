@@ -13,7 +13,7 @@ import PaySuccess from '@/pages/PaySuccess'
 import Center from '@/pages/Center'
 //引入二级路由组件
 import MyOrder from '@/pages/Center/myOrder'
-import GroupOrder from '@/pages/Center/groupOrder'
+import myPackage from '@/pages/Center/groupOrder'
 
 
 export default [
@@ -28,8 +28,8 @@ export default [
                 component:MyOrder,
             },
             {
-                path:'grouporder',
-                component:GroupOrder
+                path:'mypackage',
+                component:myPackage//懒加载引入包裹组件
             },
             //重定向
             {

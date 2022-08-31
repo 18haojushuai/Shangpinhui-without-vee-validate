@@ -13,6 +13,8 @@ export const reqGetBannerList = () => mockRequests.get('/banner')
 
 //获取floor数据
 export const reqFloorList = () => mockRequests.get('/floor')
+//获取包裹数据
+export const reqPackageList = () => mockRequests.get('/package')
 
 //获取搜索search数据 地址/api/list  post 请求需要带参数
 //获取搜索模块数据的接口，给服务器传递一个默认参数至少是一个空对象
